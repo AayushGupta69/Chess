@@ -18,3 +18,13 @@ ChessPiece::PieceType ChessPiece::getType() const
 {
 	return type;
 }
+
+void ChessPiece::incrementMoves()
+{
+	moves++;
+}
+
+void ChessPiece::decrementMoves()
+{
+	moves--;
+}
